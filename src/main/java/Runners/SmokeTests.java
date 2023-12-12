@@ -30,7 +30,7 @@ public class SmokeTests extends AbstractTestNGCucumberTests {
     public static void afterClass(){
         Reporter.loadXMLConfig("src/main/java/XMLFiles/extendReportSet.xml");
 
-        Reporter.setSystemInfo("QA Tester : ", "Selcuk Samrıoglu ");//kendi bilgilerinizi ekleyin.
+        Reporter.setSystemInfo("QA Tester : ", "Selcuk Samrioglu ");//kendi bilgilerinizi ekleyin.
         Reporter.setSystemInfo("Application name : ", "Your Store Test  ");
         Reporter.setSystemInfo("Operating System Info", System.getProperty("os.name"));
         Reporter.setSystemInfo("Department", "QA");
