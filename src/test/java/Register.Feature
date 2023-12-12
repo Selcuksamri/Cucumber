@@ -14,7 +14,7 @@ Feature: Register test scenario outline
     Examples:
       | Email | firstname | lastname | password | Company | address |
 
-      |selcuksamri@gmail.com|omer | ozdemir | omer123 |techno study | adolf weg 1|
+      |selcuksamri@gmail.com|selcuk | samrioglu | selcuk123 |techno study | adolf weg 1|
       |kisi1@gmail.com|kisi | kisisoyisim | kisi123 |Amazon | adolf weg 10|
       |kisi2@gmail.com|kisi2 | kisi2soyisim | kisi1233345 |Dell | Freiheitplatz 10|
 
